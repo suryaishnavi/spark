@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.section2 {
+	font-family: 'Josefin Sans', sans-serif;
+	background: linear-gradient(160deg, rgba(228,114,151,1), rgba(222,84,128,1));
+	padding: 2em;
+}
+
+.box{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 0;
+	text-align: center;
+	border: 1px solid rgba(193,37,86,1);
+	height: 450px;
+	width: 550px;
+	margin: 10px;
+	}
+
+.boxHeading{
+	font-size: 23px;
+	background-color: rgba(193,37,86,1);
+	color: rgba(255,255,255,0.5); /* change to back ground color*/
+	padding: 2px;
+}
+
+.boxLines{
+	font-size: 25px;
+	color: rgba(129,24,57,1);
+	text-align: center;
+	text-indent: 35px;
+	padding: 10px  0;
+}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar-custom{
+	background-color: rgba(228,114,151,1);
+	border-color: rgba(222,84,128,1);
+	color: rgba(129,24,57,1);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+}
+.navbar-custom .navbar-brand{
+	color: white;
+	font-size: 1.5em;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus{
+	color: rgba(129,24,57,1);
+	background-color: transparent;
+}
+.navbar-custom .navbar-nav > li > a{
+	color: white;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus{
+	color: rgba(122,16,49,1.00);
+	background-color: rgba(255,155,187,1.00);
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus{
+	background-color: rgba(255,155,187,1.00);
+	color: rgba(129,24,57,1);
+}
